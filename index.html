@@ -11,16 +11,22 @@
 </head>
 <body>
     
-    <div class=" container d-flex flex-column justify-content-center " >    
-    <div class="form-content mt-2 py-4">
+
+    <div class=" container d-flex flex-column justify-content-center align-items-center " >    
+    <div class="form-content mt-2 py-4 align-items-center">
      
-        <form id="form">
-            <input type="text" id="nome" placeholder="Nome">
-            <input type="text" id="idade" placeholder="Idade">
-            <input type="text" id="altura" placeholder="Altura">
-            <input type="text" id="peso" placeholder="Peso">
-            <button class="button">Próximo</button>
-    </form>
+        <form class=" d-flex flex-column justify-content-center align-items-center " id="form">
+           
+            <h1 class="h3 text-secondary">Calcule o seu IMC &#128170;</h1>
+            <input class="mb-2" type="text" id="nome" placeholder="Nome">
+            <input class="mb-2" type="text" id="idade" placeholder="Idade">
+            <input class="mb-2" type="text" id="altura" placeholder="Altura">
+            <input class="mb-2" type="text" id="peso" placeholder="Peso">
+            
+            <div id="btn" class="d-flex justify-content-center">
+            <button class="button mt-3 text-secondary">Baixar IMC</button>
+        </div>
+        </form>
     </div>
 </div>
 

@@ -10,6 +10,7 @@
     justify-content: center;
     align-items: center;
     margin-top: 7%;
+
 }
 
 html{
@@ -19,11 +20,7 @@ html{
 /*INPUT*/
 
 
-.input_display_nome {
-    display: flex;
-}
 input{
- 
     width: 400px;
     border: 3px solid rgb(207, 207, 207);
     border-radius: 10px;
@@ -36,4 +33,17 @@ input{
 }
 
 
+.button{
+background-color: rgb(107, 245, 107);
+border-radius: 10px;
+border: 2px solid ghostwhite;
+padding: 15px;
+outline: none;
+cursor: pointer;
+font-weight: 600;
+}
 
+.button:hover{
+    background-color: rgb(95, 235, 95);
+    color: rgb(74, 73, 73);
+}
